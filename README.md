@@ -11,4 +11,4 @@ import { Tab } from '@ya.praktikum/react-developer-burger-ui-components'
 ```
 
 ## Documentation
-Online documentation is [here](https://tripleten-com.github.io/react-developer-burger-ui-components/docs/)
+Online documentation is [here](https://tripleten-com.github.io/react-developer-burger-ui-components/)

@@ -85,6 +85,6 @@
     "build": "npm run clean:build && npx tsc && npx babel ./src --out-dir dist --extensions \".ts,.tsx\" --copy-files --ignore typings.d.ts,setupTests.ts && rimraf dist/__docz__ && rimraf dist/tasks",
     "docz:dev": "docz dev",
     "docz:build": "npm run clean:docs && docz build",
-    "docz:serve": "docz build && docz serve"
+    "docz:serve": "docz serve"
   }
 }
