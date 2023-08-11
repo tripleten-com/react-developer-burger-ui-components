@@ -2,12 +2,12 @@
 
 ## Installation
 ```
-npm install @ya.praktikum/react-developer-burger-ui-components
+npm install @tripleten/react-developer-burger-ui-components
 ```
 
 ## Component import example
 ```
-import { Tab } from '@ya.praktikum/react-developer-burger-ui-components'
+import { Tab } from '@tripleten/react-developer-burger-ui-components'
 ```
 
 ## Documentation

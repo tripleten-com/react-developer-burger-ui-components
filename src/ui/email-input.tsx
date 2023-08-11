@@ -65,7 +65,7 @@ export const EmailInput: React.FC<TEmailInputInterface> = ({
             error={error}
             disabled={fieldDisabled}
             onIconClick={onIconClick}
-            errorText={'Ой, произошла ошибка!'}
+            errorText={'Oops, an error occurred'}
             size={size}
             extraClass={extraClass}
             {...rest}
