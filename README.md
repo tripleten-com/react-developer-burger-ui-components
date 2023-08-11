@@ -2,12 +2,12 @@
 
 ## Installation
 ```
-npm install @tripleten/react-developer-burger-ui-components
+npm install tripleten-react-developer-burger-ui-components-en
 ```
 
 ## Component import example
 ```
-import { Tab } from '@tripleten/react-developer-burger-ui-components'
+import { Tab } from 'tripleten-react-developer-burger-ui-components-en'
 ```
 
 ## Documentation

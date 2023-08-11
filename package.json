@@ -1,6 +1,6 @@
 {
-  "name": "@tripleten/react-developer-burger-ui-components",
-  "version": "1.15.2",
+  "name": "tripleten-react-developer-burger-ui-components-en",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Yandex-Practicum/react-developer-burger-ui-components.git"
+    "url": "https://github.com/tripleten-com/react-developer-burger-ui-components.git"
   },
   "config": {
     "commitizen": {
