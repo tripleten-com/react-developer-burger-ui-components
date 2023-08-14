@@ -20,7 +20,6 @@
 .env.production.local
 
 .docz
-dist
 /src/**/*.js
 
 npm-debug.log*

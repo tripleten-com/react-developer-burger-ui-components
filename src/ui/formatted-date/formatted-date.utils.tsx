@@ -1,5 +1,4 @@
 import plural from 'plural-ru';
-import pluralize from 'pluralize';
 
 const getDiffDays = (date: Date) =>
     Math.floor((new Date().getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
@@ -9,7 +8,7 @@ export const getFormattedTime = (date: Date): string =>
 
 export const getFormattedDate = (date: Date): string => {
     const diffDays = getDiffDays(date);
-    return `${diffDays} ${pluralize('day', diffDays)} ago, ${getFormattedTime(date)}`;
+    return `${plural(diffDays, '%d день', '%d дня', '%d дней')} назад, ${getFormattedTime(date)}`;
 };
 
 export const isToday = (date: Date): boolean => getDiffDays(date) === 0;
